@@ -1,0 +1,20 @@
+.where-togo{
+    background-color: rgb(29, 4, 75);
+    color: white;
+    padding: 20px;
+}
+
+#search{
+    background-color: red;
+    color: white;
+    height: 50px;
+    width: 80px;
+}
+
+.text-books{
+    background-color: rgb(29, 4, 75);
+    color: white;
+    border-color: grey;
+    height: 50px;
+    width: 200px;
+}

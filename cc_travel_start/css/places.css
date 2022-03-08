@@ -1,0 +1,10 @@
+#popular-places-parent {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.popular-places {
+    flex: 33%;
+    
+}
+

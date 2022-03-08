@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="css/testimonial.css">
     <link rel="stylesheet" href="css/favourite.css">
     <link rel="stylesheet" href="css/popular.css">
+    <link rel="stylesheet" href="css/places.css">
 </head>
 <body>
     <!-- header-start -->
@@ -42,7 +43,21 @@
 
         <!-- search-start  -->
         <section class="where-togo">
-            Search Form Here
+            <h3>Where do you want to go?</h3>
+            <input type="search" class="text-books" name="q" placeholder="Where to go">
+            <input type="date" class="text-books" name="q" placeholder="dd/mm/yy">
+            <!-- <input type="date" class="text-books" name="trip-start"
+            value="2018-07-22"
+            min="2018-01-01" max="2045-12-31"> -->
+            <select name="travel type" class="text-books">
+                <option value="">--Please choose an option--</option>
+                <option value="train">Train</option>
+                <option value="airplane">Airplane</option>
+                <option value="car">Car</option>
+            </select>
+            <button id="search">Search</button>
+
+
         </section>
         <!-- search-end  -->
 
@@ -67,33 +82,33 @@
                 <h2>Popular Places</h2>
                 <h3>Some of the most popular places</h3>
             </hgroup>
-            <section id="popular-places">
-                <div class="">
+            <section id="popular-places-parent">
+                <div class= "popular-places">
                     <img src="img/place/california.png"><br>
                     <a href="/">California</a>
                     <p>United States of 'Merica</p>
                 </div>
-                <div>
+                <div class= "popular-places">
                     <img src="img/place/california_2.png"><br>
                     <a href="/">California (again)</a>
                     <p>United States of 'Merica</p>
                 </div>
-                <div>
+                <div class= "popular-places">
                     <img src="img/place/iceland.png"><br>
                     <a href="/">Iceland</a>
                     <p>United States of 'Merica</p>
                 </div>
-                <div>
+                <div class= "popular-places">
                     <img src="img/place/korola_megna.png"><br>
                     <a href="/">Korola Megna</a>
                     <p>United States of 'Merica</p>
                 </div>
-                <div>
+                <div class= "popular-places">
                     <img src="img/place/london.png"><br>
                     <a href="/">London</a>
                     <p>United States of 'Merica</p>
                 </div>
-                <div>
+                <div class= "popular-places">
                     <img src="img/place/miami.png"><br>
                     <a href="/">Miami</a>
                     <p>United States of 'Merica</p>
