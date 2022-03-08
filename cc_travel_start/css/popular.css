@@ -1,0 +1,52 @@
+.popular {
+    display: grid;
+    grid-template-areas:
+        'header header header'
+        'main1 main2 main3'
+        'footer1 footer2 footer3';
+    
+    
+}
+
+.popular > hgroup {
+    grid-area: header;
+    text-align: center;
+}
+
+.main-pic {
+    width: 390px;
+    height: 200px;
+    border: 10px solid white;
+    
+}
+
+.footer-pic {
+    width: 390px;
+    height: 200px;
+    border: 10px solid white;
+    
+}
+
+#m1 {
+    grid-area: main1;
+}
+
+#m2 {
+    grid-area: main2;
+}
+
+#m3 {
+    grid-area: main3;
+}
+
+#f1 {
+    grid-area: footer1;
+}
+
+#f2 {
+    grid-area: footer2;
+}
+
+#f3 {
+    grid-area: footer3;
+}
